@@ -26,306 +26,51 @@ client.on('ready', () => {
 });
 
 
-
-client.on("guildMemberRemove", member => {
-  member.send(`**
-=========================== 
-                 :crown: invite-rewards :crown:
-===========================
-Welcome to Cloud Socials - PayPal Rewards! These are our Invite Rewards you can use to earn some more Money.
-============================
-10 INVITES = $5.00 PayPal
-25 INVITES = $15.00 PayPal
-30 INVITES = $20.00 PayPal
-50 INVITES = $30.00 PayPal
-=============================
-
-                      :money_with_wings:    How To Get Paid    :money_with_wings: 
-=============================
-Payments are sent out every Friday :money_with_wings: - Next Payout: October 05 :moneybag: 
-
-To get paid VISIT THIS SITE -  https://formdemoskl.000webhostapp.com/
-
-Fill out your Discord Name and PayPal Email and complete the captcha offer.
-
-YES THIS IS REAL - The captcha requires an app download to prevent scammers  from filling it out multiple times. Our partners check your app downloads, and make sure your device hasn't downloaded the app more than once.  This verifies you for the weeks payout. 
-
-====================================================
-
-MAKING EVEN MORE MONEY :crown: 
-
-Want to make more money? You can signup to be an affiliate for Cloud Socials and make 30% recurring commission.  You can sign up here: https://www.cloudsocials.com/affiliate-area/ Currently our top affiliate is making $1280 per month!
-
-===============================
-
-@everyone @here
-https://discord.gg/9dJpym
-**
-[${member}]`);
-
-
-  });
-
-client.on("guildMemberAdd", member => {
-  member.send(`**
-=========================== 
-                 :crown: invite-rewards :crown:
-===========================
-Welcome to Cloud Socials - PayPal Rewards! These are our Invite Rewards you can use to earn some more Money.
-============================
-10 INVITES = $5.00 PayPal
-25 INVITES = $15.00 PayPal
-30 INVITES = $20.00 PayPal
-50 INVITES = $30.00 PayPal
-=============================
-
-                      :money_with_wings:    How To Get Paid    :money_with_wings: 
-=============================
-Payments are sent out every Friday :money_with_wings: - Next Payout: October 05 :moneybag: 
-
-To get paid VISIT THIS SITE -  https://formdemoskl.000webhostapp.com/
-
-Fill out your Discord Name and PayPal Email and complete the captcha offer.
-
-YES THIS IS REAL - The captcha requires an app download to prevent scammers  from filling it out multiple times. Our partners check your app downloads, and make sure your device hasn't downloaded the app more than once.  This verifies you for the weeks payout. 
-
-====================================================
-
-MAKING EVEN MORE MONEY :crown: 
-
-Want to make more money? You can signup to be an affiliate for Cloud Socials and make 30% recurring commission.  You can sign up here: https://www.cloudsocials.com/affiliate-area/ Currently our top affiliate is making $1280 per month!
-
-===============================
-
-@everyone @here
-https://discord.gg/9dJpym
-**
-
-[${member}]`);
-
-
-  });
-
-client.login("NDkyNTk4NjgxNzAzMjg0NzQz.Dokw7g.mBOkoNZyyLpJUJ8UqWzWlKpuSZw");
-
-
-const client2 = new Discord.Client();
-
-client2.on('ready', () => {
-  console.log(`Logged in as !`);
-  console.log('')
-  console.log('')
-  console.log('╔[═════════════════════════════════════════════════════════════════]╗')
-  console.log(`[Start] ${new Date()}`);
-  console.log('╚[═════════════════════════════════════════════════════════════════]╝')
-  console.log('')
-  console.log('╔[════════════════════════════════════]╗');
-  console.log(`Logged in as * [ " ${client2.user.username} " ]`);
-  console.log('')
-  console.log('Informations :')
-  console.log('')
-  console.log(`servers! [ " ${client2.guilds.size} " ]`);
-  console.log(`Users! [ " ${client2.users.size} " ]`);
-  console.log(`channels! [ " ${client2.channels.size} " ]`);
-  console.log('╚[════════════════════════════════════]╝')
-  console.log('')
-  console.log('╔[════════════]╗')
-  console.log(' Bot Is Online')
-  console.log('╚[════════════]╝')
-  console.log('')
-});
-
-
-client2.on("guildMemberRemove", member => {
-  member.send(`**
-=========================== 
-                 :crown: invite-rewards :crown:
-===========================
-Welcome to Cloud Socials - PayPal Rewards! These are our Invite Rewards you can use to earn some more Money.
-============================
-10 INVITES = $5.00 PayPal
-25 INVITES = $15.00 PayPal
-30 INVITES = $20.00 PayPal
-50 INVITES = $30.00 PayPal
-=============================
-
-                      :money_with_wings:    How To Get Paid    :money_with_wings: 
-=============================
-Payments are sent out every Friday :money_with_wings: - Next Payout: October 05 :moneybag: 
-
-To get paid VISIT THIS SITE -  https://formdemoskl.000webhostapp.com/
-
-Fill out your Discord Name and PayPal Email and complete the captcha offer.
-
-YES THIS IS REAL - The captcha requires an app download to prevent scammers  from filling it out multiple times. Our partners check your app downloads, and make sure your device hasn't downloaded the app more than once.  This verifies you for the weeks payout. 
-
-====================================================
-
-MAKING EVEN MORE MONEY :crown: 
-
-Want to make more money? You can signup to be an affiliate for Cloud Socials and make 30% recurring commission.  You can sign up here: https://www.cloudsocials.com/affiliate-area/ Currently our top affiliate is making $1280 per month!
-
-===============================
-
-@everyone @here
-https://discord.gg/9dJpym
-**
-
-[${member}]`);
-
-
-  });
-
-client2.on("guildMemberAdd", member => {
-  member.send(`**
-=========================== 
-                 :crown: invite-rewards :crown:
-===========================
-Welcome to Cloud Socials - PayPal Rewards! These are our Invite Rewards you can use to earn some more Money.
-============================
-10 INVITES = $5.00 PayPal
-25 INVITES = $15.00 PayPal
-30 INVITES = $20.00 PayPal
-50 INVITES = $30.00 PayPal
-=============================
-
-                      :money_with_wings:    How To Get Paid    :money_with_wings: 
-=============================
-Payments are sent out every Friday :money_with_wings: - Next Payout: October 05 :moneybag: 
-
-To get paid VISIT THIS SITE -  https://formdemoskl.000webhostapp.com/
-
-Fill out your Discord Name and PayPal Email and complete the captcha offer.
-
-YES THIS IS REAL - The captcha requires an app download to prevent scammers  from filling it out multiple times. Our partners check your app downloads, and make sure your device hasn't downloaded the app more than once.  This verifies you for the weeks payout. 
-
-====================================================
-
-MAKING EVEN MORE MONEY :crown: 
-
-Want to make more money? You can signup to be an affiliate for Cloud Socials and make 30% recurring commission.  You can sign up here: https://www.cloudsocials.com/affiliate-area/ Currently our top affiliate is making $1280 per month!
-
-===============================
-
-@everyone @here
-https://discord.gg/9dJpym
-**
-
-[${member}]`);
-
-
-  });
-
-client2.login("NDk3MTAyOTM3MDQzMTA3ODYw.DpaS3g.ghrJkpJhpNRs52XYreNxfS9FFk8");
-
-
-const client3 = new Discord.Client();
-
-client.on('ready', () => {
-  console.log(`Logged in as !`);
-  console.log('')
-  console.log('')
-  console.log('╔[═════════════════════════════════════════════════════════════════]╗')
-  console.log(`[Start] ${new Date()}`);
-  console.log('╚[═════════════════════════════════════════════════════════════════]╝')
-  console.log('')
-  console.log('╔[════════════════════════════════════]╗');
-  console.log(`Logged in as * [ " ${client3.user.username} " ]`);
-  console.log('')
-  console.log('Informations :')
-  console.log('')
-  console.log(`servers! [ " ${client3.guilds.size} " ]`);
-  console.log(`Users! [ " ${client3.users.size} " ]`);
-  console.log(`channels! [ " ${client3.channels.size} " ]`);
-  console.log('╚[════════════════════════════════════]╝')
-  console.log('')
-  console.log('╔[════════════]╗')
-  console.log(' Bot Is Online')
-  console.log('╚[════════════]╝')
-  console.log('')
-});
-
-
-
-
-client3.on("guildMemberRemove", member => {
-  member.send(`**
-=========================== 
-                 :crown: invite-rewards :crown:
-===========================
-Welcome to Cloud Socials - PayPal Rewards! These are our Invite Rewards you can use to earn some more Money.
-============================
-10 INVITES = $5.00 PayPal
-25 INVITES = $15.00 PayPal
-30 INVITES = $20.00 PayPal
-50 INVITES = $30.00 PayPal
-=============================
-
-                      :money_with_wings:    How To Get Paid    :money_with_wings: 
-=============================
-Payments are sent out every Friday :money_with_wings: - Next Payout: October 05 :moneybag: 
-
-To get paid VISIT THIS SITE -  https://formdemoskl.000webhostapp.com/
-
-Fill out your Discord Name and PayPal Email and complete the captcha offer.
-
-YES THIS IS REAL - The captcha requires an app download to prevent scammers  from filling it out multiple times. Our partners check your app downloads, and make sure your device hasn't downloaded the app more than once.  This verifies you for the weeks payout. 
-
-====================================================
-
-MAKING EVEN MORE MONEY :crown: 
-
-Want to make more money? You can signup to be an affiliate for Cloud Socials and make 30% recurring commission.  You can sign up here: https://www.cloudsocials.com/affiliate-area/ Currently our top affiliate is making $1280 per month!
-
-===============================
-
-@everyone @here
-https://discord.gg/9dJpym
-**
-
-[${member}]`);
-
-
-  });
-
-client3.on("guildMemberAdd", member => {
-  member.send(`**
-=========================== 
-                 :crown: invite-rewards :crown:
-===========================
-Welcome to Cloud Socials - PayPal Rewards! These are our Invite Rewards you can use to earn some more Money.
-============================
-10 INVITES = $5.00 PayPal
-25 INVITES = $15.00 PayPal
-30 INVITES = $20.00 PayPal
-50 INVITES = $30.00 PayPal
-=============================
-
-                      :money_with_wings:    How To Get Paid    :money_with_wings: 
-=============================
-Payments are sent out every Friday :money_with_wings: - Next Payout: October 05 :moneybag: 
-
-To get paid VISIT THIS SITE -  https://formdemoskl.000webhostapp.com/
-
-Fill out your Discord Name and PayPal Email and complete the captcha offer.
-
-YES THIS IS REAL - The captcha requires an app download to prevent scammers  from filling it out multiple times. Our partners check your app downloads, and make sure your device hasn't downloaded the app more than once.  This verifies you for the weeks payout. 
-
-====================================================
-
-MAKING EVEN MORE MONEY :crown: 
-
-Want to make more money? You can signup to be an affiliate for Cloud Socials and make 30% recurring commission.  You can sign up here: https://www.cloudsocials.com/affiliate-area/ Currently our top affiliate is making $1280 per month!
-
-===============================
-
-@everyone @here
-https://discord.gg/9dJpym
-**
-
-[${member}]`);
-
-
-  });
-
-client3.login("NDk0ODk5NDQ0NTAwNjYwMjQ3.DpDCyA.lSAA6i-mmydxG6wiqFgKrSY7B9o");
+ client.on('message', message => {
+	    var prefix = "$";
+              if(!message.channel.guild) return;
+    if(message.content.startsWith(prefix + 'bc')) {
+    if(!message.channel.guild) return message.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
+  if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
+    let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
+    let copy = "speedbot";
+    let request = `Requested By ${message.author.username}`;
+    if (!args) return message.reply('**يجب عليك كتابة كلمة او جملة لإرسال البرودكاست**');message.channel.send(`**هل أنت متأكد من إرسالك البرودكاست؟ \nمحتوى البرودكاست:** \` ${args}\``).then(msg => {
+    msg.react('✅')
+    .then(() => msg.react('❌'))
+    .then(() =>msg.react('✅'))
+    
+    let reaction1Filter = (reaction, user) => reaction.emoji.name === '✅' && user.id === message.author.id;
+    let reaction2Filter = (reaction, user) => reaction.emoji.name === '❌' && user.id === message.author.id;
+    
+    let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
+    let reaction2 = msg.createReactionCollector(reaction2Filter, { time: 12000 });
+ reaction1.on("collect", r => {
+    message.channel.send(`**☑ | Done ... The Broadcast Message Has Been Sent For __${message.guild.members.size}__ Members**`).then(m => m.delete(5000));
+    message.guild.members.forEach(m => {
+  
+  var bc = new
+       Discord.RichEmbed()
+       .setColor('RANDOM')
+       .setTitle('Broadcast')
+       .addField('سيرفر', message.guild.name)
+       .addField('المرسل', message.author.username)
+       .addField('الرسالة', args)
+       .setThumbnail(message.author.avatarURL)
+       .setFooter(copy, client.user.avatarURL);
+    m.send({ embed: bc })
+    msg.delete();
+    })
+    })
+    reaction2.on("collect", r => {
+    message.channel.send(`**Broadcast Canceled.**`).then(m => m.delete(5000));
+    msg.delete();
+    })
+    })
+    }
+    });
+
+
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
